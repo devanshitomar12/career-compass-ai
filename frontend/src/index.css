@@ -1,0 +1,5 @@
+/* Custom resets are handled in app.css. Leaving index.css blank to avoid conflicting styles. */
+html, body {
+  margin: 0;
+  padding: 0;
+}

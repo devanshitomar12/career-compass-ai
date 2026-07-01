@@ -1,0 +1,93 @@
+:root {
+  /* Light Mode Defaults */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-panel: rgba(255, 255, 255, 0.85);
+  --border-color: rgba(226, 232, 240, 0.8);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  
+  /* Accent Colors */
+  --color-primary: #4f46e5;      /* Indigo */
+  --color-primary-hover: #4338ca;
+  --color-secondary: #0ea5e9;    /* Sky Blue */
+  --color-success: #10b981;      /* Emerald */
+  --color-warning: #f59e0b;      /* Amber */
+  --color-danger: #ef4444;       /* Rose */
+  --color-info: #06b6d4;         /* Cyan */
+  
+  /* Gradients */
+  --grad-primary: linear-gradient(135deg, #4f46e5 0%, #0ea5e9 100%);
+  --grad-hover: linear-gradient(135deg, #4338ca 0%, #0284c7 100%);
+  --grad-dark: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  --grad-success: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  --grad-danger: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  
+  /* Shadow & Blur */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-glow: 0 0 15px rgba(79, 70, 229, 0.35);
+  --shadow-glow-success: 0 0 15px rgba(16, 185, 129, 0.35);
+  --glass-blur: blur(12px);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  
+  /* Board Colors */
+  --stage-interested: #e0f2fe;
+  --stage-applied: #f3e8ff;
+  --stage-oa: #fef3c7;
+  --stage-tech: #dcfce7;
+  --stage-hr: #e0e7ff;
+  --stage-offered: #d1fae5;
+  --stage-rejected: #fee2e2;
+
+  --stage-text-interested: #0369a1;
+  --stage-text-applied: #6b21a8;
+  --stage-text-oa: #92400e;
+  --stage-text-tech: #166534;
+  --stage-text-hr: #3730a3;
+  --stage-text-offered: #065f46;
+  --stage-text-rejected: #991b1b;
+}
+
+[data-theme='dark'] {
+  /* Dark Mode Variables */
+  --bg-primary: #0b0f19;
+  --bg-secondary: #121826;
+  --bg-panel: rgba(18, 24, 38, 0.75);
+  --border-color: rgba(255, 255, 255, 0.07);
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  
+  /* Primary accents are slightly brighter for dark-theme contrast */
+  --color-primary: #6366f1;
+  --color-primary-hover: #4f46e5;
+  --color-secondary: #38bdf8;
+  
+  --grad-primary: linear-gradient(135deg, #6366f1 0%, #38bdf8 100%);
+  --grad-hover: linear-gradient(135deg, #4f46e5 0%, #0ea5e9 100%);
+  
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.25);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  
+  /* Stage Board colors in dark mode (slightly deeper & transparent) */
+  --stage-interested: rgba(14, 165, 233, 0.15);
+  --stage-applied: rgba(168, 85, 247, 0.15);
+  --stage-oa: rgba(245, 158, 11, 0.15);
+  --stage-tech: rgba(16, 185, 129, 0.15);
+  --stage-hr: rgba(99, 102, 241, 0.15);
+  --stage-offered: rgba(34, 197, 94, 0.2);
+  --stage-rejected: rgba(239, 68, 68, 0.15);
+
+  --stage-text-interested: #38bdf8;
+  --stage-text-applied: #c084fc;
+  --stage-text-oa: #fbbf24;
+  --stage-text-tech: #34d399;
+  --stage-text-hr: #818cf8;
+  --stage-text-offered: #4ade80;
+  --stage-text-rejected: #f87171;
+}
