@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
-import api from '../utils/api';
+import api, { BACKEND_ROOT_URL } from '../utils/api';
 import {
   FileText,
   Calendar,
@@ -449,7 +449,7 @@ const Dashboard = () => {
                   📄 {user.resumePath.split('/').pop()}
                 </span>
                 <a
-                  href={`http://localhost:5000${user.resumePath}`}
+                  href={`${BACKEND_ROOT_URL}${user.resumePath}`}
                   target="_blank"
                   rel="noreferrer"
                   style={{ fontSize: '12px', color: 'var(--color-primary)', textDecoration: 'none', fontWeight: '600' }}
