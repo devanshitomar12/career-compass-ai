@@ -15,6 +15,7 @@ import {
   Calendar,
   DollarSign,
   ChevronRight,
+  Briefcase,
 } from 'lucide-react';
 
 const ApplicationTracker = () => {
